@@ -1,0 +1,6 @@
+[submodule "oohomework_2024_22373024_exp_1"]
+	path = exp1
+	url = git@gitlab.oo.buaa.edu.cn:oo_homework_2024/oohomework_2024_22373024_exp_1.git
+[submodule "training_2024_22373024_unit1_training"]
+	path = train1
+	url = git@gitlab.oo.buaa.edu.cn:oo_homework_2024/training_2024_22373024_unit1_training.git
