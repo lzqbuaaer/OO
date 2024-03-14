@@ -5,8 +5,226 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6008cdf5-6ff8-4ea8-97de-a679f22373ad" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Generator.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src1/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src1/.idea/artifacts/src1_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src1/.idea/checkstyle-idea.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src1/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src1/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src1/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src1/Expr.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src1/Factor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src1/Lexer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src1/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src1/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src1/Num.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src1/Parser.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src1/Term.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src1/Tool.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src1/Var.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src1/out/artifacts/src1_jar/src1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src1/out/production/src1/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src1/out/production/src1/.idea/artifacts/src1_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src1/out/production/src1/.idea/checkstyle-idea.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src1/out/production/src1/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src1/out/production/src1/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src1/out/production/src1/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src1/out/production/src1/Expr.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src1/out/production/src1/Factor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src1/out/production/src1/Lexer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src1/out/production/src1/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src1/out/production/src1/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src1/out/production/src1/Num.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src1/out/production/src1/Parser.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src1/out/production/src1/Term.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src1/out/production/src1/Tool.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src1/out/production/src1/Var.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src1/out/production/src1/src1.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src1/src1.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src2/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src2/.idea/artifacts/src2_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src2/.idea/checkstyle-idea.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src2/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src2/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src2/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src2/Expression.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src2/Factor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src2/Lexer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src2/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src2/MainClass.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src2/Merge.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src2/Number.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src2/Parser.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src2/Short.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src2/Simplify.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src2/Term.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src2/Variable.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src2/out/artifacts/src2_jar/src2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src2/out/production/src2/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src2/out/production/src2/.idea/artifacts/src2_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src2/out/production/src2/.idea/checkstyle-idea.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src2/out/production/src2/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src2/out/production/src2/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src2/out/production/src2/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src2/out/production/src2/Expression.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src2/out/production/src2/Factor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src2/out/production/src2/Lexer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src2/out/production/src2/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src2/out/production/src2/MainClass.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src2/out/production/src2/Merge.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src2/out/production/src2/Number.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src2/out/production/src2/Parser.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src2/out/production/src2/Short.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src2/out/production/src2/Simplify.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src2/out/production/src2/Term.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src2/out/production/src2/Variable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src2/out/production/src2/src2.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src2/src2.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src3/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src3/.idea/artifacts/src3_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src3/.idea/checkstyle-idea.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src3/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src3/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src3/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src3/Expr.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src3/ExprFactor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src3/ExprHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src3/Factor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src3/Lexer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src3/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src3/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src3/Monomial.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src3/Number.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src3/Parser.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src3/Polynomial.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src3/Term.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src3/Var.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src3/out/artifacts/src3_jar/src3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src3/out/production/src3/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src3/out/production/src3/.idea/artifacts/src3_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src3/out/production/src3/.idea/checkstyle-idea.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src3/out/production/src3/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src3/out/production/src3/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src3/out/production/src3/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src3/out/production/src3/Expr.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src3/out/production/src3/ExprFactor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src3/out/production/src3/ExprHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src3/out/production/src3/Factor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src3/out/production/src3/Lexer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src3/out/production/src3/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src3/out/production/src3/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src3/out/production/src3/Monomial.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src3/out/production/src3/Number.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src3/out/production/src3/Parser.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src3/out/production/src3/Polynomial.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src3/out/production/src3/Term.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src3/out/production/src3/Var.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src3/out/production/src3/src3.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src3/src3.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src4/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src4/.idea/artifacts/src4_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src4/.idea/checkstyle-idea.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src4/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src4/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src4/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src4/Expr.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src4/Factor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src4/Lexer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src4/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src4/MainClass.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src4/Number.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src4/Parser.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src4/Term.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src4/Variable.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src4/out/artifacts/src4_jar/src4.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src4/out/production/src4/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src4/out/production/src4/.idea/artifacts/src4_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src4/out/production/src4/.idea/checkstyle-idea.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src4/out/production/src4/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src4/out/production/src4/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src4/out/production/src4/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src4/out/production/src4/Expr.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src4/out/production/src4/Factor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src4/out/production/src4/Lexer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src4/out/production/src4/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src4/out/production/src4/MainClass.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src4/out/production/src4/Number.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src4/out/production/src4/Parser.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src4/out/production/src4/Term.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src4/out/production/src4/Variable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src4/out/production/src4/src4.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src4/src4.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src5/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src5/.idea/artifacts/src5_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src5/.idea/checkstyle-idea.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src5/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src5/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src5/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src5/Expr.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src5/Factor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src5/LegalExpr.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src5/LegalTerm.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src5/Lexer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src5/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src5/MainClass.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src5/Number.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src5/Parser.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src5/Term.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src5/Variable.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src5/out/artifacts/src5_jar/src5.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src5/out/production/src5/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src5/out/production/src5/.idea/artifacts/src5_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src5/out/production/src5/.idea/checkstyle-idea.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src5/out/production/src5/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src5/out/production/src5/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src5/out/production/src5/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src5/out/production/src5/Expr.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src5/out/production/src5/Factor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src5/out/production/src5/LegalExpr.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src5/out/production/src5/LegalTerm.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src5/out/production/src5/Lexer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src5/out/production/src5/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src5/out/production/src5/MainClass.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src5/out/production/src5/Number.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src5/out/production/src5/Parser.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src5/out/production/src5/Term.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src5/out/production/src5/Variable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src5/out/production/src5/src5.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src5/src5.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src6/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src6/.idea/checkstyle-idea.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src6/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src6/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src6/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src6/Expr.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src6/Factor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src6/Lexer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src6/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src6/Number.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src6/Parser.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src6/Polynomial.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src6/Term.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src6/Token.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src6/Var.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src6/out/production/src6/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src6/out/production/src6/.idea/checkstyle-idea.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src6/out/production/src6/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src6/out/production/src6/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src6/out/production/src6/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src6/out/production/src6/Expr.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src6/out/production/src6/Factor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src6/out/production/src6/Lexer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src6/out/production/src6/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src6/out/production/src6/Number.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src6/out/production/src6/Parser.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src6/out/production/src6/Polynomial.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src6/out/production/src6/Term.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src6/out/production/src6/Token$Type.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src6/out/production/src6/Token.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src6/out/production/src6/Var.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src6/out/production/src6/src6.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src6/src6.iml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,7 +258,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/lzq123/oo/OO/Generator_hw1&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/lzq123/oo/OO/Generator_hw2&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -94,6 +312,9 @@
       <workItem from="1709477065580" duration="601000" />
       <workItem from="1709522204617" duration="1000" />
       <workItem from="1709534856255" duration="356000" />
+      <workItem from="1709809915169" duration="22000" />
+      <workItem from="1709887901715" duration="57000" />
+      <workItem from="1709900017796" duration="106000" />
     </task>
     <servers />
   </component>
@@ -101,6 +322,6 @@
     <option name="version" value="3" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Generator_hw1$main.coverage" NAME="main Coverage Results" MODIFIED="1709534963478" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Generator_hw1$main.coverage" NAME="main Coverage Results" MODIFIED="1709900115106" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
