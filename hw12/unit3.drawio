@@ -1,0 +1,136 @@
+<mxfile host="Electron" modified="2024-05-18T02:14:52.749Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.6.5 Chrome/114.0.5735.243 Electron/25.3.1 Safari/537.36" version="21.6.5" etag="KPSQlcN9gYgNxk4O6kKj" type="device">
+  <diagram id="KuSuMqkPj2qQDj2TvNb6" name="第 1 页">
+    <mxGraphModel dx="3287" dy="1644" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="node28" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;DisjointSet&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt;- tripleCnt: int&lt;br/&gt;- blockCnt: int&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt;+ find(int): int&lt;br/&gt;+ merge(int, int): void&lt;br/&gt;+ shortestPath(int, int): int&lt;br/&gt;+ deleteEdge(int, int): void&lt;br/&gt;+ addRelation(int, int): void&lt;br/&gt;+ bfs(int, int, HashSet&amp;lt;Integer&amp;gt;): void&lt;br/&gt;+ addPerson(int): void&lt;br/&gt;+ deleteRelation(int, int): void&lt;br/&gt;+ isCircle(int, int): boolean&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt; blockCnt: int&lt;br/&gt; tripleCnt: int&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=14;fontFamily=Helvetica;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;" parent="1" vertex="1">
+          <mxGeometry x="-582.5" width="267" height="352" as="geometry" />
+        </mxCell>
+        <mxCell id="node6" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br/&gt;&lt;b&gt;EmojiMessage&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt; emojiId: int&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=14;fontFamily=Helvetica;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;" parent="1" vertex="1">
+          <mxGeometry x="937" y="701" width="164" height="79" as="geometry" />
+        </mxCell>
+        <mxCell id="node12" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br/&gt;&lt;b&gt;Message&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt;+ equals(Object): boolean&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt; person2: Person&lt;br/&gt; id: int&lt;br/&gt; person1: Person&lt;br/&gt; socialValue: int&lt;br/&gt; tag: Tag&lt;br/&gt; type: int&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=14;fontFamily=Helvetica;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;" parent="1" vertex="1">
+          <mxGeometry x="464" y="260" width="194" height="209" as="geometry" />
+        </mxCell>
+        <mxCell id="node31" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;MyEmojiMessage&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt;- person1: Person&lt;br/&gt;- socialValue: int&lt;br/&gt;- person2: Person&lt;br/&gt;- id: int&lt;br/&gt;- tag: Tag&lt;br/&gt;- type: int&lt;br/&gt;- emojiId: int&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt;+ equals(Object): boolean&lt;br/&gt;+ send(): void&lt;br/&gt;+ send1(): void&lt;br/&gt;+ send0(): void&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt; id: int&lt;br/&gt; emojiId: int&lt;br/&gt; socialValue: int&lt;br/&gt; tag: Tag&lt;br/&gt; person2: Person&lt;br/&gt; person1: Person&lt;br/&gt; type: int&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=14;fontFamily=Helvetica;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;" parent="1" vertex="1">
+          <mxGeometry x="922" y="814" width="194" height="475" as="geometry" />
+        </mxCell>
+        <mxCell id="node10" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;MyMessage&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt;- type: int&lt;br/&gt;- person1: Person&lt;br/&gt;- socialValue: int&lt;br/&gt;- person2: Person&lt;br/&gt;- tag: Tag&lt;br/&gt;- id: int&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt;+ equals(Object): boolean&lt;br/&gt;+ send0(): void&lt;br/&gt;+ send(): void&lt;br/&gt;+ send1(): void&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt; person2: Person&lt;br/&gt; id: int&lt;br/&gt; person1: Person&lt;br/&gt; socialValue: int&lt;br/&gt; tag: Tag&lt;br/&gt; type: int&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=14;fontFamily=Helvetica;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;" parent="1" vertex="1">
+          <mxGeometry x="220" y="814" width="194" height="427" as="geometry" />
+        </mxCell>
+        <mxCell id="node2" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;MyNetwork&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt;- emojiIdList: HashSet&amp;lt;Integer&amp;gt;&lt;br/&gt;- emojiHeatList: HashMap&amp;lt;Integer, Integer&amp;gt;&lt;br/&gt;- messages: HashMap&amp;lt;Integer, Message&amp;gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt;+ queryValue(int, int): int&lt;br/&gt;+ addTag(int, Tag): void&lt;br/&gt;+ querySocialValue(int): int&lt;br/&gt;+ queryBestAcquaintance(int): int&lt;br/&gt;+ modifyRelation(int, int, int): void&lt;br/&gt;+ modifyTagValueSum(int, int, int): void&lt;br/&gt;+ sendMessage(int): void&lt;br/&gt;+ queryBlockSum(): int&lt;br/&gt;+ queryCoupleSum(): int&lt;br/&gt;+ storeEmojiId(int): void&lt;br/&gt;+ delPersonFromTag(int, int, int): void&lt;br/&gt;+ queryShortestPath(int, int): int&lt;br/&gt;+ queryTripleSum(): int&lt;br/&gt;+ queryTagValueSum(int, int): int&lt;br/&gt;+ deleteColdEmoji(int): int&lt;br/&gt;+ queryPopularity(int): int&lt;br/&gt;+ addIdTag(int, int, int): void&lt;br/&gt;+ containsPerson(int): boolean&lt;br/&gt;+ addMessage(Message): void&lt;br/&gt;+ getPerson(int): Person&lt;br/&gt;+ delTag(int, int): void&lt;br/&gt;+ addRelation(int, int, int): void&lt;br/&gt;+ containsEmojiId(int): boolean&lt;br/&gt;+ isCircle(int, int): boolean&lt;br/&gt;+ addPerson(Person): void&lt;br/&gt;+ delIdTag(int, int, int): void&lt;br/&gt;+ queryTagAgeVar(int, int): int&lt;br/&gt;+ addPersonToTag(int, int, int): void&lt;br/&gt;+ queryReceivedMessages(int): List&amp;lt;Message&amp;gt;&lt;br/&gt;+ getMessage(int): Message&lt;br/&gt;+ clearNotices(int): void&lt;br/&gt;+ containsMessage(int): boolean&lt;br/&gt;+ queryMoney(int): int&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt; emojiIdList: int[]&lt;br/&gt; messages: Message[]&lt;br/&gt; emojiHeatList: int[]&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=14;fontFamily=Helvetica;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;" parent="1" vertex="1">
+          <mxGeometry x="-166" y="795" width="326" height="955" as="geometry" />
+        </mxCell>
+        <mxCell id="node39" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;MyNoticeMessage&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt;- string: String&lt;br/&gt;- socialValue: int&lt;br/&gt;- person1: Person&lt;br/&gt;- id: int&lt;br/&gt;- type: int&lt;br/&gt;- tag: Tag&lt;br/&gt;- person2: Person&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt;+ equals(Object): boolean&lt;br/&gt;+ send1(): void&lt;br/&gt;+ send0(): void&lt;br/&gt;+ send(): void&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt; string: String&lt;br/&gt; id: int&lt;br/&gt; socialValue: int&lt;br/&gt; tag: Tag&lt;br/&gt; person2: Person&lt;br/&gt; person1: Person&lt;br/&gt; type: int&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=14;fontFamily=Helvetica;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;" parent="1" vertex="1">
+          <mxGeometry x="437" y="814" width="197" height="475" as="geometry" />
+        </mxCell>
+        <mxCell id="node11" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;MyPerson&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt;- id: int&lt;br/&gt;- socialValue: int&lt;br/&gt;- messages: LinkedList&amp;lt;Message&amp;gt;&lt;br/&gt;- name: String&lt;br/&gt;- money: int&lt;br/&gt;- age: int&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt;+ addMoney(int): void&lt;br/&gt;+ queryValue(Person): int&lt;br/&gt;+ modifyValue(Person, int): boolean&lt;br/&gt;+ acquaintanceSize(): int&lt;br/&gt;+ containsTag(int): boolean&lt;br/&gt;+ bestAcquaintance(): Integer&lt;br/&gt;+ addMessage(Message): void&lt;br/&gt;+ addSocialValue(int): void&lt;br/&gt;+ addTag(Tag): void&lt;br/&gt;+ clearNotices(): void&lt;br/&gt;+ getTag(int): Tag&lt;br/&gt;+ equals(Object): boolean&lt;br/&gt;+ delTag(int): void&lt;br/&gt;+ addValue(Person, int): boolean&lt;br/&gt;+ isLinked(Person): boolean&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt; name: String&lt;br/&gt; id: int&lt;br/&gt; age: int&lt;br/&gt; socialValue: int&lt;br/&gt; receivedMessages: List&amp;lt;Message&amp;gt;&lt;br/&gt; messages: List&amp;lt;Message&amp;gt;&lt;br/&gt; money: int&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=14;fontFamily=Helvetica;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;" parent="1" vertex="1">
+          <mxGeometry x="-580" y="850.5" width="262" height="715" as="geometry" />
+        </mxCell>
+        <mxCell id="node4" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;MyRedEnvelopeMessage&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt;- person2: Person&lt;br/&gt;- tag: Tag&lt;br/&gt;- id: int&lt;br/&gt;- person1: Person&lt;br/&gt;- socialValue: int&lt;br/&gt;- money: int&lt;br/&gt;- type: int&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt;+ equals(Object): boolean&lt;br/&gt;+ send1(): void&lt;br/&gt;+ send0(): void&lt;br/&gt;+ send(): void&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt; id: int&lt;br/&gt; socialValue: int&lt;br/&gt; tag: Tag&lt;br/&gt; person2: Person&lt;br/&gt; person1: Person&lt;br/&gt; money: int&lt;br/&gt; type: int&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=14;fontFamily=Helvetica;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;" parent="1" vertex="1">
+          <mxGeometry x="654" y="814" width="248" height="475" as="geometry" />
+        </mxCell>
+        <mxCell id="node13" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;MyTag&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt;- id: int&lt;br/&gt;- valueSum: int&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt;+ addPerson(Person): void&lt;br/&gt;+ addSocialValue(int): void&lt;br/&gt;+ modifyValueSum(int, int, int): void&lt;br/&gt;+ equals(Object): boolean&lt;br/&gt;+ addMoney(int): void&lt;br/&gt;+ hasPerson(Person): boolean&lt;br/&gt;+ delAll(int): void&lt;br/&gt;+ delPerson(Person): void&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt; ageVar: int&lt;br/&gt; id: int&lt;br/&gt; size: int&lt;br/&gt; ageMean: int&lt;br/&gt; valueSum: int&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=14;fontFamily=Helvetica;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;" parent="1" vertex="1">
+          <mxGeometry x="-960" y="764" width="254" height="403" as="geometry" />
+        </mxCell>
+        <mxCell id="67AN_qgkeLu7jXJFC63B-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="node35" target="node12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="67AN_qgkeLu7jXJFC63B-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="node35" target="node36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="67AN_qgkeLu7jXJFC63B-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="node35" target="node28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="node35" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br/&gt;&lt;b&gt;Network&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt;+ queryMoney(int): int&lt;br/&gt;+ queryShortestPath(int, int): int&lt;br/&gt;+ deleteColdEmoji(int): int&lt;br/&gt;+ isCircle(int, int): boolean&lt;br/&gt;+ sendMessage(int): void&lt;br/&gt;+ queryPopularity(int): int&lt;br/&gt;+ addMessage(Message): void&lt;br/&gt;+ queryBlockSum(): int&lt;br/&gt;+ addPersonToTag(int, int, int): void&lt;br/&gt;+ queryReceivedMessages(int): List&amp;lt;Message&amp;gt;&lt;br/&gt;+ queryCoupleSum(): int&lt;br/&gt;+ queryTagAgeVar(int, int): int&lt;br/&gt;+ queryBestAcquaintance(int): int&lt;br/&gt;+ delTag(int, int): void&lt;br/&gt;+ containsPerson(int): boolean&lt;br/&gt;+ queryValue(int, int): int&lt;br/&gt;+ addPerson(Person): void&lt;br/&gt;+ delPersonFromTag(int, int, int): void&lt;br/&gt;+ containsMessage(int): boolean&lt;br/&gt;+ addTag(int, Tag): void&lt;br/&gt;+ modifyRelation(int, int, int): void&lt;br/&gt;+ containsEmojiId(int): boolean&lt;br/&gt;+ getPerson(int): Person&lt;br/&gt;+ queryTagValueSum(int, int): int&lt;br/&gt;+ getMessage(int): Message&lt;br/&gt;+ queryTripleSum(): int&lt;br/&gt;+ addRelation(int, int, int): void&lt;br/&gt;+ storeEmojiId(int): void&lt;br/&gt;+ clearNotices(int): void&lt;br/&gt;+ querySocialValue(int): int&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=14;fontFamily=Helvetica;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;" parent="1" vertex="1">
+          <mxGeometry x="-166" y="-14" width="326" height="759" as="geometry" />
+        </mxCell>
+        <mxCell id="node18" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br/&gt;&lt;b&gt;NoticeMessage&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt; string: String&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=14;fontFamily=Helvetica;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;" parent="1" vertex="1">
+          <mxGeometry x="449" y="701" width="173" height="79" as="geometry" />
+        </mxCell>
+        <mxCell id="67AN_qgkeLu7jXJFC63B-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="node36" target="node29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="67AN_qgkeLu7jXJFC63B-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="node36" target="node28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="node36" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br/&gt;&lt;b&gt;Person&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt;+ isLinked(Person): boolean&lt;br/&gt;+ queryValue(Person): int&lt;br/&gt;+ equals(Object): boolean&lt;br/&gt;+ delTag(int): void&lt;br/&gt;+ getTag(int): Tag&lt;br/&gt;+ addSocialValue(int): void&lt;br/&gt;+ addTag(Tag): void&lt;br/&gt;+ addMoney(int): void&lt;br/&gt;+ containsTag(int): boolean&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt; name: String&lt;br/&gt; id: int&lt;br/&gt; age: int&lt;br/&gt; socialValue: int&lt;br/&gt; receivedMessages: List&amp;lt;Message&amp;gt;&lt;br/&gt; messages: List&amp;lt;Message&amp;gt;&lt;br/&gt; money: int&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=14;fontFamily=Helvetica;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;" parent="1" vertex="1">
+          <mxGeometry x="-580" y="370" width="262" height="425" as="geometry" />
+        </mxCell>
+        <mxCell id="node14" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br/&gt;&lt;b&gt;RedEnvelopeMessage&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt; money: int&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=14;fontFamily=Helvetica;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;" parent="1" vertex="1">
+          <mxGeometry x="666" y="701" width="224" height="79" as="geometry" />
+        </mxCell>
+        <mxCell id="node29" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br/&gt;&lt;b&gt;Tag&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt;+ addPerson(Person): void&lt;br/&gt;+ delPerson(Person): void&lt;br/&gt;+ equals(Object): boolean&lt;br/&gt;+ hasPerson(Person): boolean&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt; ageVar: int&lt;br/&gt; id: int&lt;br/&gt; size: int&lt;br/&gt; ageMean: int&lt;br/&gt; valueSum: int&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=14;fontFamily=Helvetica;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;" parent="1" vertex="1">
+          <mxGeometry x="-942.5" y="454" width="219" height="257" as="geometry" />
+        </mxCell>
+        <mxCell id="edge9" value="" style="html=1;rounded=1;edgeStyle=orthogonalEdgeStyle;dashed=0;startArrow=none;endArrow=block;endSize=12;strokeColor=#008200;exitX=0.500;exitY=0.001;exitDx=0;exitDy=0;entryX=0.750;entryY=1.000;entryDx=0;entryDy=0;" parent="1" source="node6" target="node12" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1019" y="499" />
+              <mxPoint x="778" y="499" />
+              <mxPoint x="778" y="489" />
+              <mxPoint x="610" y="489" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge15" value="" style="html=1;rounded=1;edgeStyle=orthogonalEdgeStyle;dashed=1;startArrow=none;endArrow=block;endSize=12;strokeColor=#008200;exitX=0.500;exitY=0.000;exitDx=0;exitDy=0;entryX=0.500;entryY=1.000;entryDx=0;entryDy=0;" parent="1" source="node31" target="node6" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge3" value="" style="html=1;rounded=1;edgeStyle=orthogonalEdgeStyle;dashed=1;startArrow=none;endArrow=block;endSize=12;strokeColor=#008200;exitX=0.500;exitY=0.000;exitDx=0;exitDy=0;entryX=0.250;entryY=1.000;entryDx=0;entryDy=0;" parent="1" source="node10" target="node12" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="332" y="499" />
+              <mxPoint x="513" y="499" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge1" value="" style="html=1;rounded=1;edgeStyle=orthogonalEdgeStyle;dashed=1;startArrow=none;endArrow=block;endSize=12;strokeColor=#008200;exitX=0.500;exitY=0.000;exitDx=0;exitDy=0;entryX=0.500;entryY=1.000;entryDx=0;entryDy=0;" parent="1" source="node2" target="node35" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge11" value="" style="html=1;rounded=1;edgeStyle=orthogonalEdgeStyle;dashed=1;startArrow=none;endArrow=block;endSize=12;strokeColor=#008200;exitX=0.500;exitY=0.000;exitDx=0;exitDy=0;entryX=0.500;entryY=1.000;entryDx=0;entryDy=0;" parent="1" source="node39" target="node18" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge6" value="" style="html=1;rounded=1;edgeStyle=orthogonalEdgeStyle;dashed=1;startArrow=none;endArrow=block;endSize=12;strokeColor=#008200;exitX=0.500;exitY=0.000;exitDx=0;exitDy=0;entryX=0.500;entryY=1.000;entryDx=0;entryDy=0;" parent="1" source="node11" target="node36" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge21" value="" style="html=1;rounded=1;edgeStyle=orthogonalEdgeStyle;dashed=1;startArrow=none;endArrow=block;endSize=12;strokeColor=#008200;exitX=0.500;exitY=0.000;exitDx=0;exitDy=0;entryX=0.500;entryY=1.000;entryDx=0;entryDy=0;" parent="1" source="node4" target="node14" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge8" value="" style="html=1;rounded=1;edgeStyle=orthogonalEdgeStyle;dashed=1;startArrow=none;endArrow=block;endSize=12;strokeColor=#008200;exitX=0.500;exitY=0.000;exitDx=0;exitDy=0;entryX=0.500;entryY=1.000;entryDx=0;entryDy=0;" parent="1" source="node13" target="node29" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge2" value="" style="html=1;rounded=1;edgeStyle=orthogonalEdgeStyle;dashed=0;startArrow=none;endArrow=block;endSize=12;strokeColor=#008200;exitX=0.500;exitY=0.001;exitDx=0;exitDy=0;entryX=0.750;entryY=1.000;entryDx=0;entryDy=0;" parent="1" source="node18" target="node12" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="536" y="499" />
+              <mxPoint x="778" y="499" />
+              <mxPoint x="778" y="489" />
+              <mxPoint x="610" y="489" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge18" value="" style="html=1;rounded=1;edgeStyle=orthogonalEdgeStyle;dashed=0;startArrow=none;endArrow=block;endSize=12;strokeColor=#008200;exitX=0.500;exitY=0.000;exitDx=0;exitDy=0;entryX=0.750;entryY=1.000;entryDx=0;entryDy=0;" parent="1" source="node14" target="node12" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="778" y="489" />
+              <mxPoint x="610" y="489" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

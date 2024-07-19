@@ -1,0 +1,79 @@
+<mxfile host="Electron" modified="2024-04-18T04:12:28.751Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.6.5 Chrome/114.0.5735.243 Electron/25.3.1 Safari/537.36" version="21.6.5" etag="6SxA6XWAJwXykONGs4Eb" type="device">
+  <diagram id="CZ8ZlY2x0cPtPCG45bbt" name="第 1 页">
+    <mxGraphModel dx="2466" dy="1224" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="iVu4oZvwFG3MXudDgiXg-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="node1" target="node10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="node1" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;enumeration&amp;gt;&amp;gt;&lt;/i&gt;&lt;br/&gt;&lt;b&gt;Action&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt;+ Action(): &lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt;+ values(): Action[]&lt;br/&gt;+ valueOf(String): Action&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=14;fontFamily=Helvetica;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;" parent="1" vertex="1">
+          <mxGeometry x="-39" y="1300" width="186" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="iVu4oZvwFG3MXudDgiXg-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="node8" target="node10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iVu4oZvwFG3MXudDgiXg-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="node8" target="node0">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iVu4oZvwFG3MXudDgiXg-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="node8" target="node5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="node8" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Elevator&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt;+ Elevator(int, RequestTable): &lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt;- towards: boolean&lt;br/&gt;- floor: int&lt;br/&gt;- resetRequest: ResetRequest&lt;br/&gt;- schedule: Schedule&lt;br/&gt;- inReset: boolean&lt;br/&gt;- personNum: int&lt;br/&gt;- full: int&lt;br/&gt;- rate: double&lt;br/&gt;- person: HashMap&amp;lt;Integer, ArrayList&amp;lt;PersonRequest&amp;gt;&amp;gt;&lt;br/&gt;- reqBuff: RequestBuffer&lt;br/&gt;- reqTab: RequestTable&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt;+ addPerson(PersonRequest): void&lt;br/&gt;+ openAndClose(): void&lt;br/&gt;+ resetting(): void&lt;br/&gt;+ needReset(): Boolean&lt;br/&gt;+ clear(): void&lt;br/&gt;+ personOut(): void&lt;br/&gt;+ personIn(): void&lt;br/&gt;+ run(): void&lt;br/&gt;+ isEmpty(): Boolean&lt;br/&gt;+ move(): void&lt;br/&gt;+ setInResetTrue(): void&lt;br/&gt;+ beginReset(ResetRequest): void&lt;br/&gt;+ setInResetFalse(): void&lt;br/&gt;+ needOut(): Boolean&lt;br/&gt;+ canIn(): Boolean&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt; resetRequest: ResetRequest&lt;br/&gt; towards: Boolean&lt;br/&gt; person: HashMap&amp;lt;Integer, ArrayList&amp;lt;PersonRequest&amp;gt;&amp;gt;&lt;br/&gt; inReset: boolean&lt;br/&gt; personNum: int&lt;br/&gt; full: int&lt;br/&gt; schedule: Schedule&lt;br/&gt; reqBuff: RequestBuffer&lt;br/&gt; reqTab: RequestTable&lt;br/&gt; rate: double&lt;br/&gt; floor: int&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=14;fontFamily=Helvetica;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;" parent="1" vertex="1">
+          <mxGeometry x="-139" y="90" width="386" height="954" as="geometry" />
+        </mxCell>
+        <mxCell id="iVu4oZvwFG3MXudDgiXg-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="node3" target="node6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="node3" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Main&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt;+ Main(): &lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt;+ main(String[]): void&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt; requestHandler: RequestHandler&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=14;fontFamily=Helvetica;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;" parent="1" vertex="1">
+          <mxGeometry x="1352.5" y="270" width="243" height="138" as="geometry" />
+        </mxCell>
+        <mxCell id="node5" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;OutPut&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt;+ OutPut(): &lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt;+ close(int, int): void&lt;br/&gt;+ in(int, int, int): void&lt;br/&gt;+ arrive(int, int): void&lt;br/&gt;+ out(int, int, int): void&lt;br/&gt;+ open(int, int): void&lt;br/&gt;+ resetEnd(int): void&lt;br/&gt;+ resetBegin(int): void&lt;br/&gt;+ receive(int, int): void&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=14;fontFamily=Helvetica;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;" parent="1" vertex="1">
+          <mxGeometry x="487.5" y="50" width="173" height="255" as="geometry" />
+        </mxCell>
+        <mxCell id="iVu4oZvwFG3MXudDgiXg-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="node4" target="node2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="node4" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;RequestBuffer&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt;+ RequestBuffer(RequestTable, Elevator): &lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt;+ addToTable(): void&lt;br/&gt;+ run(): void&lt;br/&gt;+ addRequest(PersonRequest): void&lt;br/&gt;+ beginWait(): void&lt;br/&gt;+ finish(): void&lt;br/&gt;+ stopWait(): void&lt;br/&gt;+ copyToTable(RequestTable): void&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=14;fontFamily=Helvetica;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;" parent="1" vertex="1">
+          <mxGeometry x="900" y="451" width="292" height="232" as="geometry" />
+        </mxCell>
+        <mxCell id="iVu4oZvwFG3MXudDgiXg-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="node6" target="node4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iVu4oZvwFG3MXudDgiXg-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="node6" target="node9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="node6" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;RequestHandler&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt;+ RequestHandler(ArrayList&amp;lt;Elevator&amp;gt;, Schedule): &lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt;+ addResetRequest(ResetRequest): void&lt;br/&gt;+ addPersonRequest(PersonRequest): void&lt;br/&gt;+ finish(): void&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=14;fontFamily=Helvetica;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;" parent="1" vertex="1">
+          <mxGeometry x="1300" y="493.5" width="348" height="147" as="geometry" />
+        </mxCell>
+        <mxCell id="iVu4oZvwFG3MXudDgiXg-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="node2" target="node8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iVu4oZvwFG3MXudDgiXg-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="node2" target="node5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="node2" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;RequestTable&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt;+ RequestTable(int, int, HashMap&amp;lt;Integer, ArrayList&amp;lt;PersonRequest&amp;gt;&amp;gt;, Boolean, Boolean): &lt;br/&gt;+ RequestTable(int): &lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt;- id: int&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt;+ canIn(int, Boolean): int&lt;br/&gt;+ deepCopy(): RequestTable&lt;br/&gt;+ waitRequest(): void&lt;br/&gt;+ has(PersonRequest): boolean&lt;br/&gt;+ towardsHasPerson(int, Boolean): Boolean&lt;br/&gt;+ removePerson(int, int): PersonRequest&lt;br/&gt;+ stopReset(): void&lt;br/&gt;+ addRequest(PersonRequest, Boolean): void&lt;br/&gt;+ finish(): void&lt;br/&gt;+ beginReset(): void&lt;br/&gt;+ isEnd(): Boolean&lt;br/&gt;+ isEmpty(): Boolean&lt;br/&gt;+ clear(Schedule): void&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt; id: int&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=14;fontFamily=Helvetica;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;" parent="1" vertex="1">
+          <mxGeometry x="360" y="335" width="428" height="464" as="geometry" />
+        </mxCell>
+        <mxCell id="iVu4oZvwFG3MXudDgiXg-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="node9" target="node6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="node9" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Schedule&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt;+ Schedule(ArrayList&amp;lt;Elevator&amp;gt;, ArrayList&amp;lt;RequestBuffer&amp;gt;): &lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt;+ beginWait(): void&lt;br/&gt;+ run(): void&lt;br/&gt;+ finish(): void&lt;br/&gt;+ addPersonRequest(PersonRequest): void&lt;br/&gt;+ noReset(): boolean&lt;br/&gt;+ getSchedule(PersonRequest): RequestBuffer&lt;br/&gt;+ stopWait(): void&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt; one: PersonRequest&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=14;fontFamily=Helvetica;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;" parent="1" vertex="1">
+          <mxGeometry x="1268.5" y="770" width="411" height="265" as="geometry" />
+        </mxCell>
+        <mxCell id="iVu4oZvwFG3MXudDgiXg-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="node0" target="node9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="node0" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;ShadowElevator&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt;+ ShadowElevator(Elevator, PersonRequest): &lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt;- towards: boolean&lt;br/&gt;- floor: int&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt;+ copyPerson(HashMap&amp;lt;Integer, ArrayList&amp;lt;PersonRequest&amp;gt;&amp;gt;): void&lt;br/&gt;+ isEmpty(): Boolean&lt;br/&gt;+ needOut(): Boolean&lt;br/&gt;+ canIn(): Boolean&lt;br/&gt;+ personOut(): void&lt;br/&gt;+ move(): void&lt;br/&gt;+ run(): int&lt;br/&gt;+ addPerson(PersonRequest): void&lt;br/&gt;+ personIn(): void&lt;br/&gt;+ targetFinish(PersonRequest): boolean&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt; towards: Boolean&lt;br/&gt; floor: int&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=14;fontFamily=Helvetica;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;" parent="1" vertex="1">
+          <mxGeometry x="670" y="854" width="454" height="424" as="geometry" />
+        </mxCell>
+        <mxCell id="iVu4oZvwFG3MXudDgiXg-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="node10" target="node8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="node10" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Strategy&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt;+ Strategy(): &lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt;+ getAction(Elevator, RequestTable): Action&lt;br/&gt;+ getShadowAction(ShadowElevator, RequestTable): Action&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=14;fontFamily=Helvetica;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;" parent="1" vertex="1">
+          <mxGeometry x="-148.5" y="1120" width="405" height="121" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

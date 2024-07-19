@@ -1,0 +1,1181 @@
+begin wait
+1
+2
+stop wait falsefalsefalsetruetrue
+begin wait
+[   1.6630]RECEIVE-36-2
+[   1.6640]RECEIVE-64-1
+[   1.6640]OPEN-1-2
+[   1.6650]IN-36-1-2
+3
+stop wait falsefalsefalsetruetrue
+begin wait
+[   1.8470]RECEIVE-42-3
+[   2.0790]CLOSE-1-2
+[   2.0800]ARRIVE-2-1
+[   2.2510]ARRIVE-2-3
+[   2.4840]ARRIVE-3-1
+[   2.4890]ARRIVE-2-2
+[   2.6560]ARRIVE-3-3
+[   2.8910]ARRIVE-4-1
+[   2.8920]ARRIVE-3-2
+[   3.0610]ARRIVE-4-3
+[   3.0620]OPEN-4-3
+[   3.0620]IN-42-4-3
+4
+stop wait falsefalsefalsetruetrue
+begin wait
+[   3.1550]RECEIVE-16-4
+[   3.2950]ARRIVE-4-2
+[   3.2960]ARRIVE-5-1
+5
+stop wait falsefalsefalsetruetrue
+begin wait
+[   3.3590]RECEIVE-25-5
+[   3.4660]CLOSE-4-3
+[   3.5580]ARRIVE-2-4
+[   3.6990]ARRIVE-5-2
+[   3.7000]ARRIVE-6-1
+[   3.7010]OPEN-6-1
+[   3.7020]IN-64-6-1
+[   3.7610]ARRIVE-2-5
+[   3.8690]ARRIVE-5-3
+[   3.8700]OPEN-5-3
+[   3.8710]OUT-42-5-3
+4
+stop wait falsetruefalsetruetrue
+begin wait
+[   3.9620]ARRIVE-3-4
+[   4.1030]ARRIVE-6-2
+[   4.1180]CLOSE-6-1
+[   4.1650]ARRIVE-3-5
+[   4.2740]CLOSE-5-3
+[   4.3670]ARRIVE-4-4
+[   4.5080]ARRIVE-7-2
+[   4.5240]ARRIVE-5-1
+5
+stop wait falsefalsefalsetruetrue
+begin wait
+[   4.5560]RECEIVE-37-6
+[   4.5570]OPEN-1-6
+[   4.5570]IN-37-1-6
+[   4.5700]ARRIVE-4-5
+[   4.5710]OPEN-4-5
+[   4.5730]IN-25-4-5
+[   4.7730]ARRIVE-5-4
+[   4.9140]ARRIVE-8-2
+[   4.9290]ARRIVE-4-1
+[   4.9600]CLOSE-1-6
+[   4.9750]CLOSE-4-5
+6
+stop wait falsefalsefalsetruetrue
+begin wait
+[   5.1500]RECEIVE-61-1
+[   5.1790]ARRIVE-6-4
+7
+stop wait falsefalsefalsetruetrue
+begin wait
+[   5.2440]RECEIVE-17-2
+[   5.3200]ARRIVE-9-2
+[   5.3360]ARRIVE-3-1
+[   5.3660]ARRIVE-2-6
+[   5.3820]ARRIVE-5-5
+8
+stop wait falsefalsefalsetruetrue
+begin wait
+[   5.5560]RECEIVE-51-3
+[   5.5860]ARRIVE-7-4
+[   5.7260]ARRIVE-10-2
+[   5.7270]OPEN-10-2
+[   5.7290]OUT-36-10-2
+7
+stop wait falsetruefalsetruetrue
+begin wait
+[   5.7430]ARRIVE-2-1
+[   5.7430]OPEN-2-1
+[   5.7440]OUT-64-2-1
+6
+stop wait falsetruefalsetruetrue
+begin wait
+[   5.7740]ARRIVE-3-6
+[   5.7900]ARRIVE-6-5
+7
+stop wait falsefalsefalsetruetrue
+begin wait
+[   5.8520]RECEIVE-59-4
+[   5.9600]ARRIVE-6-3
+[   5.9920]ARRIVE-8-4
+[   5.9920]OPEN-8-4
+[   5.9930]IN-16-8-4
+[   6.1310]CLOSE-10-2
+[   6.1470]CLOSE-2-1
+[   6.1770]ARRIVE-4-6
+[   6.1930]ARRIVE-7-5
+8
+stop wait falsefalsefalsetruetrue
+begin wait
+[   6.3480]RECEIVE-18-5
+[   6.3620]ARRIVE-7-3
+[   6.3940]CLOSE-8-4
+[   6.5340]ARRIVE-9-2
+[   6.5490]ARRIVE-3-1
+[   6.5800]ARRIVE-5-6
+[   6.5950]ARRIVE-8-5
+[   6.5950]OPEN-8-5
+[   6.5960]OUT-25-8-5
+7
+stop wait falsetruefalsetruetrue
+begin wait
+[   6.7680]ARRIVE-8-3
+[   6.7730]OPEN-8-3
+[   6.7730]IN-51-8-3
+[   6.7990]ARRIVE-7-4
+[   6.9400]ARRIVE-8-2
+[   6.9550]ARRIVE-4-1
+8
+stop wait falsefalsefalsetruetrue
+begin wait
+[   6.9580]RECEIVE-45-6
+[   6.9860]ARRIVE-6-6
+[   7.0020]CLOSE-8-5
+[   7.1880]CLOSE-8-3
+[   7.2030]ARRIVE-6-4
+9
+stop wait falsefalsefalsetruetrue
+begin wait
+[   7.2510]RECEIVE-47-1
+[   7.3440]ARRIVE-7-2
+[   7.3600]ARRIVE-5-1
+[   7.3910]ARRIVE-7-6
+[   7.3920]OPEN-7-6
+[   7.3920]OUT-37-7-6
+8
+stop wait falsetruefalsetruetrue
+begin wait
+[   7.4060]ARRIVE-7-5
+[   7.4070]OPEN-7-5
+[   7.4070]IN-18-7-5
+[   7.5930]ARRIVE-7-3
+[   7.6080]ARRIVE-5-4
+[   7.6080]OPEN-5-4
+[   7.6100]OUT-16-5-4
+7
+stop wait falsetruefalsetruetrue
+begin wait
+8
+stop wait falsefalsefalsetruetrue
+begin wait
+[   7.6560]RECEIVE-22-2
+[   7.7480]ARRIVE-6-2
+[   7.7630]ARRIVE-6-1
+[   7.7940]CLOSE-7-6
+[   7.8090]CLOSE-7-5
+[   7.9950]ARRIVE-6-3
+[   8.0110]CLOSE-5-4
+[   8.1510]ARRIVE-5-2
+[   8.1660]ARRIVE-7-1
+[   8.1980]ARRIVE-8-6
+[   8.1990]OPEN-8-6
+[   8.2010]IN-45-8-6
+[   8.2140]ARRIVE-6-5
+9
+stop wait falsefalsefalsetruetrue
+begin wait
+[   8.3560]RECEIVE-54-3
+[   8.4030]ARRIVE-5-3
+[   8.4170]ARRIVE-4-4
+[   8.5560]ARRIVE-4-2
+[   8.5730]ARRIVE-8-1
+[   8.6030]CLOSE-8-6
+[   8.6190]ARRIVE-5-5
+[   8.6200]OPEN-5-5
+[   8.6210]OUT-18-5-5
+8
+stop wait falsetruefalsetruetrue
+begin wait
+9
+stop wait falsefalsefalsetruetrue
+begin wait
+[   8.6520]RECEIVE-33-4
+10
+11
+stop wait falsefalsefalsetruetrue
+begin wait
+[   8.7460]RECEIVE-67-5
+[   8.7460]RECEIVE-44-6
+[   8.8080]ARRIVE-4-3
+[   8.8230]ARRIVE-3-4
+[   8.9630]ARRIVE-3-2
+[   8.9630]OPEN-3-2
+[   8.9640]IN-17-3-2
+[   8.9950]ARRIVE-9-1
+[   9.0100]ARRIVE-7-6
+[   9.0110]OPEN-7-6
+[   9.0110]OUT-45-7-6
+10
+stop wait falsetruefalsetruetrue
+begin wait
+[   9.0120]IN-44-7-6
+[   9.0250]CLOSE-5-5
+[   9.2110]ARRIVE-3-3
+[   9.2260]ARRIVE-2-4
+11
+stop wait falsefalsefalsetruetrue
+begin wait
+[   9.2430]RECEIVE-52-1
+12
+stop wait falsefalsefalsetruetrue
+begin wait
+[   9.3550]RECEIVE-39-2
+[   9.3680]CLOSE-3-2
+[   9.3990]ARRIVE-10-1
+[   9.3990]OPEN-10-1
+[   9.4000]IN-61-10-1
+[   9.4140]CLOSE-7-6
+[   9.4300]ARRIVE-4-5
+13
+stop wait falsefalsefalsetruetrue
+begin wait
+[   9.5550]RECEIVE-3-3
+[   9.6180]ARRIVE-2-3
+[   9.6180]OPEN-2-3
+[   9.6190]OUT-51-2-3
+12
+stop wait falsetruefalsetruetrue
+begin wait
+[   9.6330]ARRIVE-1-4
+[   9.6340]OPEN-1-4
+[   9.6340]IN-59-1-4
+[   9.7730]ARRIVE-4-2
+[   9.8040]CLOSE-10-1
+[   9.8200]ARRIVE-6-6
+[   9.8350]ARRIVE-3-5
+13
+stop wait falsefalsefalsetruetrue
+begin wait
+[   9.8520]RECEIVE-68-4
+[  10.0220]CLOSE-2-3
+[  10.0380]CLOSE-1-4
+14
+stop wait falsefalsefalsetruetrue
+begin wait
+[  10.0540]RECEIVE-55-5
+[  10.1760]ARRIVE-5-2
+[  10.2070]ARRIVE-9-1
+[  10.2230]ARRIVE-5-6
+[  10.2380]ARRIVE-2-5
+[  10.2390]OPEN-2-5
+[  10.2400]IN-67-2-5
+[  10.4250]ARRIVE-3-3
+[  10.4410]ARRIVE-2-4
+[  10.5800]ARRIVE-6-2
+[  10.6120]ARRIVE-8-1
+[  10.6280]ARRIVE-4-6
+[  10.6430]CLOSE-2-5
+[  10.8320]ARRIVE-4-3
+[  10.8480]ARRIVE-3-4
+15
+stop wait falsefalsefalsetruetrue
+begin wait
+[  10.9570]RECEIVE-49-6
+[  10.9870]ARRIVE-7-2
+[  11.0190]ARRIVE-7-1
+[  11.0210]OPEN-7-1
+[  11.0220]IN-52-7-1
+[  11.0360]ARRIVE-3-6
+[  11.0370]OPEN-3-6
+[  11.0390]OUT-44-3-6
+14
+stop wait falsetruefalsetruetrue
+begin wait
+[  11.0500]ARRIVE-3-5
+[  11.2370]ARRIVE-5-3
+[  11.2530]ARRIVE-4-4
+[  11.2550]OPEN-4-4
+[  11.2550]IN-33-4-4
+[  11.3930]ARRIVE-8-2
+[  11.3930]OPEN-8-2
+[  11.3930]OUT-17-8-2
+13
+stop wait falsetruefalsetruetrue
+begin wait
+[  11.4250]CLOSE-7-1
+[  11.4560]CLOSE-3-6
+[  11.4570]ARRIVE-4-5
+14
+stop wait falsefalsefalsetruetrue
+begin wait
+[  11.5490]RECEIVE-60-1
+[  11.6440]ARRIVE-6-3
+[  11.6600]CLOSE-4-4
+[  11.8040]CLOSE-8-2
+[  11.8060]OPEN-8-2
+[  11.8060]IN-22-8-2
+[  11.8310]ARRIVE-6-1
+[  11.8310]OPEN-6-1
+[  11.8320]OUT-61-6-1
+13
+stop wait falsetruefalsetruetrue
+begin wait
+14
+stop wait falsefalsefalsetruetrue
+begin wait
+[  11.8470]RECEIVE-24-2
+[  11.8620]ARRIVE-5-5
+[  11.8630]ARRIVE-4-6
+[  12.0500]ARRIVE-7-3
+[  12.0660]ARRIVE-5-4
+[  12.2210]CLOSE-8-2
+[  12.2370]CLOSE-6-1
+15
+stop wait falsefalsefalsetruetrue
+begin wait
+[  12.2540]RECEIVE-34-3
+[  12.2670]ARRIVE-5-6
+[  12.2690]ARRIVE-6-5
+[  12.2690]OPEN-6-5
+[  12.2710]IN-55-6-5
+[  12.4540]ARRIVE-8-3
+[  12.4710]ARRIVE-6-4
+[  12.4720]OPEN-6-4
+[  12.4720]OUT-33-6-4
+14
+stop wait falsetruefalsetruetrue
+begin wait
+[  12.6250]ARRIVE-7-2
+[  12.6400]ARRIVE-5-1
+[  12.6720]ARRIVE-6-6
+[  12.6870]CLOSE-6-5
+[  12.8590]ARRIVE-9-3
+[  12.8760]CLOSE-6-4
+15
+stop wait falsefalsefalsetruetrue
+begin wait
+[  12.9560]RECEIVE-31-4
+[  13.0320]ARRIVE-6-2
+[  13.0480]ARRIVE-4-1
+[  13.0790]ARRIVE-7-6
+[  13.0790]OPEN-7-6
+[  13.0800]IN-49-7-6
+[  13.0940]ARRIVE-7-5
+16
+stop wait falsefalsefalsetruetrue
+begin wait
+[  13.1570]RECEIVE-53-5
+[  13.2670]ARRIVE-10-3
+[  13.2830]ARRIVE-7-4
+[  13.2840]OPEN-7-4
+[  13.2850]OUT-59-7-4
+15
+stop wait falsetruefalsetruetrue
+begin wait
+[  13.4400]ARRIVE-5-2
+16
+[  13.4550]ARRIVE-3-1
+stop wait falsefalsefalsetruetrue
+begin wait
+[  13.4550]OPEN-3-1
+[  13.4550]RECEIVE-30-6
+[  13.4570]OUT-52-3-1
+15
+stop wait falsetruefalsetruetrue
+begin wait
+[  13.4870]IN-30-7-6
+[  13.4870]CLOSE-7-6
+[  13.5020]ARRIVE-8-5
+[  13.6730]ARRIVE-11-3
+[  13.6760]OPEN-11-3
+[  13.6780]IN-54-11-3
+[  13.6890]CLOSE-7-4
+[  13.8440]ARRIVE-4-2
+[  13.8600]CLOSE-3-1
+[  13.8910]ARRIVE-6-6
+[  13.9070]ARRIVE-9-5
+[  13.9080]OPEN-9-5
+[  13.9090]OUT-67-9-5
+14
+stop wait falsetruefalsetruetrue
+begin wait
+[  14.0930]CLOSE-11-3
+[  14.0940]ARRIVE-8-4
+[  14.1560]RESET_ACCEPT-6-8-0.4
+[  14.2480]ARRIVE-3-2
+[  14.2640]ARRIVE-2-1
+[  14.2940]ARRIVE-5-6
+[  14.2940]OPEN-5-6
+[  14.2950]OUT-49-5-6
+[  14.2960]OUT-30-5-6
+stop wait falsefalsefalsetruefalse
+begin wait
+[  14.2960]RECEIVE-49-1
+stop wait falsefalsefalsetruefalse
+begin wait
+[  14.2970]RECEIVE-30-2
+[  14.3090]CLOSE-9-5
+15
+stop wait falsefalsefalsetruefalse
+begin wait
+[  14.3570]RECEIVE-63-3
+[  14.4970]ARRIVE-9-4
+[  14.4980]ARRIVE-10-3
+[  14.4980]OPEN-10-3
+[  14.4990]OUT-54-10-3
+14
+stop wait falsetruefalsetruefalse
+begin wait
+[  14.6530]ARRIVE-2-2
+[  14.6530]OPEN-2-2
+[  14.6530]OUT-22-2-2
+13
+stop wait falsetruefalsetruefalse
+begin wait
+[  14.6680]ARRIVE-1-1
+[  14.6680]OPEN-1-1
+[  14.6680]IN-47-1-1
+[  14.6990]CLOSE-5-6
+[  14.7000]RESET_BEGIN-6
+[  14.7140]ARRIVE-10-5
+[  14.7150]OPEN-10-5
+[  14.7160]OUT-55-10-5
+12
+stop wait falsetruefalsetruefalse
+begin wait
+[  14.9000]ARRIVE-10-4
+[  14.9160]CLOSE-10-3
+[  15.0570]CLOSE-2-2
+[  15.0720]CLOSE-1-1
+[  15.1180]CLOSE-10-5
+13
+stop wait falsefalsefalsetruefalse
+begin wait
+[  15.1490]RECEIVE-38-4
+[  15.3040]ARRIVE-11-4
+[  15.3040]OPEN-11-4
+[  15.3040]IN-68-11-4
+[  15.3200]ARRIVE-9-3
+[  15.4580]ARRIVE-1-2
+[  15.4600]OPEN-1-2
+[  15.4610]IN-39-1-2
+[  15.4610]IN-24-1-2
+[  15.4740]ARRIVE-2-1
+[  15.5210]ARRIVE-9-5
+14
+stop wait falsefalsefalsetruefalse
+begin wait
+[  15.5540]RECEIVE-26-5
+[  15.7080]CLOSE-11-4
+[  15.7260]ARRIVE-8-3
+[  15.8670]CLOSE-1-2
+[  15.8830]ARRIVE-3-1
+[  15.9150]RESET_END-6
+stop wait falsetruefalsetruetrue
+begin wait
+[  15.9300]ARRIVE-8-5
+15
+stop wait falsefalsefalsetruetrue
+begin wait
+[  15.9480]RECEIVE-65-6
+[  16.1170]ARRIVE-10-4
+[  16.1320]ARRIVE-7-3
+[  16.2720]ARRIVE-2-2
+[  16.2880]ARRIVE-4-1
+[  16.3340]ARRIVE-7-5
+[  16.3490]ARRIVE-6-6
+[  16.3490]OPEN-6-6
+[  16.3500]IN-65-6-6
+16
+stop wait falsefalsefalsetruetrue
+begin wait
+[  16.4430]RECEIVE-9-1
+[  16.5190]ARRIVE-9-4
+[  16.5340]ARRIVE-6-3
+[  16.6890]ARRIVE-3-2
+[  16.6900]OPEN-3-2
+[  16.6900]OUT-39-3-2
+15
+stop wait falsetruefalsetruetrue
+begin wait
+[  16.7050]ARRIVE-5-1
+[  16.7370]ARRIVE-6-5
+[  16.7520]CLOSE-6-6
+16
+stop wait falsefalsefalsetruetrue
+begin wait
+[  16.8460]RECEIVE-50-2
+[  16.9240]ARRIVE-8-4
+[  16.9390]ARRIVE-5-3
+17
+stop wait falsefalsefalsetruetrue
+begin wait
+[  17.0480]RECEIVE-27-3
+[  17.0950]CLOSE-3-2
+[  17.1100]ARRIVE-6-1
+[  17.1410]ARRIVE-5-5
+18
+[  17.1570]ARRIVE-7-6
+stop wait falsefalsefalsetruetrue
+begin wait
+[  17.1580]RECEIVE-41-4
+[  17.3290]ARRIVE-7-4
+[  17.3440]ARRIVE-4-3
+[  17.3440]OPEN-4-3
+[  17.3450]IN-3-4-3
+[  17.5010]ARRIVE-4-2
+[  17.5160]ARRIVE-7-1
+[  17.5480]ARRIVE-4-5
+[  17.5640]ARRIVE-8-6
+[  17.7350]ARRIVE-6-4
+19
+stop wait falsefalsefalsetruetrue
+begin wait
+[  17.7510]CLOSE-4-3
+[  17.7530]RECEIVE-5-5
+[  17.9070]ARRIVE-5-2
+[  17.9230]ARRIVE-8-1
+[  17.9540]ARRIVE-3-5
+20
+stop wait falsefalsefalsetruetrue
+begin wait
+[  17.9550]RECEIVE-40-6
+[  17.9690]ARRIVE-9-6
+[  17.9700]OPEN-9-6
+[  17.9700]OUT-65-9-6
+19
+stop wait falsetruefalsetruetrue
+begin wait
+[  18.1410]ARRIVE-5-4
+[  18.1560]ARRIVE-3-3
+[  18.3090]ARRIVE-6-2
+[  18.3250]ARRIVE-9-1
+[  18.3560]ARRIVE-2-5
+20
+stop wait falsefalsefalsetruetrue
+begin wait
+[  18.3580]RECEIVE-46-1
+[  18.3860]CLOSE-9-6
+[  18.5420]ARRIVE-4-4
+[  18.5440]OPEN-4-4
+[  18.5440]OUT-68-4-4
+19
+stop wait falsetruefalsetruetrue
+begin wait
+[  18.5450]IN-31-4-4
+[  18.5580]ARRIVE-2-3
+[  18.5580]OPEN-2-3
+[  18.5590]OUT-3-2-3
+18
+stop wait falsetruefalsetruetrue
+begin wait
+[  18.7120]ARRIVE-7-2
+[  18.7270]ARRIVE-10-1
+[  18.7280]OPEN-10-1
+[  18.7280]OUT-47-10-1
+17
+stop wait falsetruefalsetruetrue
+begin wait
+[  18.7600]ARRIVE-1-5
+[  18.7610]OPEN-1-5
+[  18.7610]IN-5-1-5
+[  18.7910]ARRIVE-8-6
+[  18.9480]CLOSE-4-4
+[  18.9630]CLOSE-2-3
+[  19.0560]RESET_ACCEPT-3-7-0.2
+[  19.1180]ARRIVE-8-2
+[  19.1340]CLOSE-10-1
+[  19.1340]OPEN-10-1
+[  19.1340]IN-46-10-1
+[  19.1640]CLOSE-1-5
+[  19.1950]ARRIVE-7-6
+[  19.3650]ARRIVE-3-4
+[  19.3670]ARRIVE-1-3
+[  19.3680]RESET_BEGIN-3
+[  19.3680]OPEN-3-4
+[  19.3680]OUT-31-3-4
+16
+stop wait falsefalsefalsetruefalse
+begin wait
+[  19.3690]RECEIVE-34-2
+[  19.3700]RECEIVE-27-4
+[  19.5350]CLOSE-10-1
+[  19.5360]ARRIVE-9-2
+[  19.5370]OPEN-9-2
+[  19.5380]OUT-24-9-2
+15
+stop wait falsetruefalsetruefalse
+begin wait
+[  19.5660]ARRIVE-2-5
+[  19.5970]ARRIVE-6-6
+16
+stop wait falsefalsefalsetruefalse
+begin wait
+[  19.6450]RECEIVE-10-5
+[  19.7880]CLOSE-3-4
+[  19.9400]ARRIVE-9-1
+[  19.9410]CLOSE-9-2
+[  19.9420]OPEN-9-1
+[  19.9420]OUT-46-9-1
+15
+[  19.9430]IN-60-9-1
+stop wait falsetruefalsetruefalse
+begin wait
+[  19.9710]ARRIVE-3-5
+[  19.9720]OPEN-3-5
+[  19.9730]OUT-5-3-5
+14
+stop wait falsetruefalsetruefalse
+begin wait
+[  19.9730]IN-53-3-5
+[  20.0030]ARRIVE-5-6
+[  20.1910]ARRIVE-2-4
+[  20.3450]ARRIVE-10-2
+[  20.3450]CLOSE-9-1
+[  20.3760]CLOSE-3-5
+[  20.4070]ARRIVE-4-6
+[  20.5790]RESET_END-3
+[  20.5790]RECEIVE-63-3
+stop wait falsetruefalsetruetrue
+begin wait
+[  20.5950]ARRIVE-1-4
+[  20.5950]OPEN-1-4
+[  20.5970]IN-41-1-4
+[  20.7530]ARRIVE-8-1
+[  20.7530]ARRIVE-11-2
+[  20.7530]OPEN-11-2
+[  20.7530]IN-50-11-2
+[  20.7830]ARRIVE-4-5
+[  20.7830]ARRIVE-2-3
+[  20.8140]ARRIVE-3-6
+[  20.8140]OPEN-3-6
+[  20.8140]IN-40-3-6
+[  20.9850]ARRIVE-3-3
+[  21.0020]CLOSE-1-4
+[  21.1560]ARRIVE-7-1
+[  21.1580]CLOSE-11-2
+[  21.1880]ARRIVE-5-5
+[  21.1880]OPEN-5-5
+[  21.1890]OUT-53-5-5
+13
+stop wait falsetruefalsetruetrue
+begin wait
+[  21.2020]ARRIVE-4-3
+[  21.2180]CLOSE-3-6
+14
+stop wait falsefalsefalsetruetrue
+begin wait
+[  21.2510]RECEIVE-8-6
+[  21.4050]ARRIVE-5-3
+[  21.4050]ARRIVE-2-4
+[  21.5440]RESET_ACCEPT-4-8-0.3
+[  21.5750]ARRIVE-6-1
+[  21.5750]ARRIVE-10-2
+[  21.5910]CLOSE-5-5
+[  21.6070]ARRIVE-6-3
+[  21.6230]ARRIVE-4-6
+15
+stop wait falsefalsefalsetruefalse
+begin wait
+[  21.6560]RECEIVE-29-1
+[  21.8090]ARRIVE-7-3
+[  21.8090]ARRIVE-3-4
+[  21.8090]OPEN-3-4
+[  21.8110]OUT-41-3-4
+stop wait falsefalsefalsetruefalse
+begin wait
+[  21.8120]RECEIVE-41-2
+[  21.8570]RESET_ACCEPT-2-4-0.3
+[  21.9810]ARRIVE-5-1
+[  21.9810]ARRIVE-9-2
+[  21.9810]OPEN-9-2
+[  21.9810]OUT-50-9-2
+[  21.9830]OPEN-5-1
+stop wait falsefalsefalsetruefalse
+begin wait
+[  21.9830]IN-49-5-1
+[  21.9830]RECEIVE-50-3
+[  21.9970]ARRIVE-6-5
+[  22.0130]ARRIVE-8-3
+[  22.0130]OPEN-8-3
+[  22.0130]IN-63-8-3
+[  22.0280]ARRIVE-5-6
+[  22.2160]CLOSE-3-4
+[  22.2170]RESET_BEGIN-4
+stop wait falsefalsefalsetruefalse
+begin wait
+[  22.2190]RECEIVE-27-5
+[  22.3900]CLOSE-9-2
+[  22.3910]CLOSE-5-1
+[  22.3920]RESET_BEGIN-2
+stop wait falsefalsefalsetruefalse
+begin wait
+[  22.3930]RECEIVE-41-1
+[  22.3940]RECEIVE-34-6
+[  22.4050]ARRIVE-7-5
+[  22.4220]CLOSE-8-3
+[  22.4360]ARRIVE-6-6
+[  22.4370]OPEN-6-6
+[  22.4370]OUT-40-6-6
+14
+stop wait falsetruefalsetruefalse
+begin wait
+[  22.6360]ARRIVE-9-3
+[  22.7440]RESET_ACCEPT-6-4-0.4
+[  22.8070]ARRIVE-8-5
+[  22.8080]ARRIVE-4-1
+[  22.8390]CLOSE-6-6
+[  22.8400]ARRIVE-10-3
+[  22.8400]OPEN-10-3
+[  22.8410]RESET_BEGIN-6
+[  22.8410]OUT-63-10-3
+13
+stop wait falsefalsefalsetruefalse
+begin wait
+[  22.8420]RECEIVE-34-3
+[  23.2120]ARRIVE-3-1
+[  23.2130]ARRIVE-9-5
+[  23.2420]CLOSE-10-3
+[  23.4290]RESET_END-4
+[  23.4290]RECEIVE-38-4
+stop wait falsetruefalsetruefalse
+begin wait
+[  23.4290]RECEIVE-8-4
+[  23.4450]ARRIVE-9-3
+[  23.4450]OPEN-9-3
+14
+[  23.4450]IN-50-9-3
+stop wait falsefalsefalsetruefalse
+begin wait
+[  23.4460]RECEIVE-35-5
+[  23.6020]RESET_END-2
+[  23.6030]RECEIVE-30-2
+stop wait falsetruefalsetruefalse
+begin wait
+[  23.6160]ARRIVE-10-5
+[  23.6190]ARRIVE-2-1
+[  23.7400]ARRIVE-4-4
+[  23.8490]CLOSE-9-3
+15
+stop wait falsefalsefalsetruefalse
+begin wait
+[  23.9110]ARRIVE-8-2
+[  24.0210]ARRIVE-1-1
+[  24.0230]ARRIVE-11-5
+[  24.0230]OPEN-1-1
+[  24.0230]OUT-60-1-1
+14
+[  24.0230]OPEN-11-5
+[  24.0240]OUT-49-1-1
+13
+stop wait falsetruefalsetruefalse
+begin wait
+[  24.0240]IN-27-11-5
+[  24.0530]ARRIVE-8-3
+[  24.0540]RESET_END-6
+[  24.0540]ARRIVE-5-4
+stop wait falsetruefalsetruetrue
+begin wait
+[  24.0550]OPEN-5-4
+[  24.0550]IN-38-5-4
+[  24.0560]RECEIVE-48-6
+[  24.2230]ARRIVE-7-2
+[  24.2690]ARRIVE-7-3
+[  24.2690]OPEN-7-3
+[  24.2700]OUT-50-7-3
+12
+stop wait falsetruefalsetruetrue
+begin wait
+[  24.4250]CLOSE-1-1
+[  24.4250]CLOSE-11-5
+[  24.4250]OPEN-1-1
+[  24.4250]IN-9-1-1
+[  24.4710]ARRIVE-5-6
+[  24.4710]CLOSE-5-4
+[  24.5340]ARRIVE-6-2
+[  24.6740]CLOSE-7-3
+[  24.7820]ARRIVE-6-4
+[  24.8290]CLOSE-1-1
+[  24.8310]ARRIVE-10-5
+[  24.8440]ARRIVE-5-2
+[  24.8450]OPEN-5-2
+[  24.8450]IN-30-5-2
+[  24.8750]ARRIVE-6-3
+[  24.8750]ARRIVE-4-6
+[  25.0780]ARRIVE-5-3
+[  25.0940]ARRIVE-7-4
+[  25.2340]ARRIVE-2-1
+[  25.2350]ARRIVE-9-5
+[  25.2360]OPEN-9-5
+[  25.2360]IN-26-9-5
+[  25.2490]CLOSE-5-2
+[  25.2520]RESET_ACCEPT-1-5-6-0.3
+[  25.2800]ARRIVE-4-3
+[  25.2800]ARRIVE-3-6
+[  25.2800]OPEN-3-6
+[  25.2800]IN-48-3-6
+[  25.4050]ARRIVE-8-4
+[  25.4840]ARRIVE-3-3
+[  25.5620]ARRIVE-4-2
+[  25.6410]CLOSE-9-5
+[  25.6410]ARRIVE-3-1
+[  25.6410]OPEN-3-1
+[  25.6420]IN-41-3-1
+13
+stop wait falsefalsefalsetruefalse
+begin wait
+[  25.6880]CLOSE-3-6
+[  25.6890]ARRIVE-2-3
+[  25.7190]ARRIVE-9-4
+[  25.7200]OPEN-9-4
+[  25.7220]OUT-38-9-4
+12
+stop wait falsetruefalsetruefalse
+begin wait
+[  25.8750]ARRIVE-3-2
+[  25.8750]OPEN-3-2
+[  25.8750]OUT-30-3-2
+11
+stop wait falsetruefalsetruefalse
+begin wait
+[  25.8910]ARRIVE-1-3
+[  25.8910]OPEN-1-3
+[  25.8910]IN-34-1-3
+12
+stop wait falsefalsefalsetruefalse
+begin wait
+[  25.9540]RECEIVE-70-2
+[  26.0450]CLOSE-3-1
+[  26.0450]ARRIVE-8-5
+[  26.0450]OPEN-3-1
+[  26.0460]OUT-9-3-1
+[  26.0460]OUT-41-3-1
+stop wait falsefalsefalsetruefalse
+begin wait
+[  26.0480]RECEIVE-41-4
+[  26.0480]RECEIVE-9-3
+[  26.0920]ARRIVE-4-6
+[  26.1230]CLOSE-9-4
+[  26.2790]CLOSE-3-2
+[  26.2950]CLOSE-1-3
+[  26.3560]RESET_ACCEPT-3-3-0.6
+[  26.4370]ARRIVE-8-4
+[  26.4370]OPEN-8-4
+[  26.4370]IN-8-8-4
+[  26.4510]CLOSE-3-1
+[  26.4520]RESET_BEGIN-1
+[  26.4520]ARRIVE-7-5
+stop wait falsefalsefalsetruefalse
+begin wait
+[  26.4530]RECEIVE-29-5
+[  26.4980]ARRIVE-2-3
+[  26.4980]ARRIVE-5-6
+[  26.5000]OPEN-2-3
+[  26.5000]OUT-34-2-3
+stop wait falsefalsefalsetruefalse
+begin wait
+[  26.5020]RECEIVE-34-6
+[  26.5920]ARRIVE-4-2
+[  26.6550]RESET_ACCEPT-4-8-0.4
+[  26.8420]CLOSE-8-4
+[  26.8570]ARRIVE-6-5
+[  26.9040]CLOSE-2-3
+[  26.9040]RESET_BEGIN-3
+[  26.9050]ARRIVE-6-6
+[  26.9050]OPEN-6-6
+[  26.9050]OUT-48-6-6
+11
+stop wait falsefalsefalsetruefalse
+begin wait
+[  26.9050]ARRIVE-5-2
+[  26.9510]RESET_ACCEPT-2-5-3-0.6
+[  27.1540]ARRIVE-7-4
+[  27.1560]OPEN-7-4
+[  27.1560]OUT-8-7-4
+stop wait falsefalsefalsetruefalse
+begin wait
+[  27.2140]ARRIVE-6-2
+[  27.2160]RESET_BEGIN-2
+stop wait falsefalsefalsetruefalse
+begin wait
+[  27.2600]ARRIVE-5-5
+[  27.3080]CLOSE-6-6
+12
+stop wait falsefalsefalsetruefalse
+begin wait
+[  27.5700]CLOSE-7-4
+[  27.5720]RESET_BEGIN-4
+stop wait falsefalsefalsetruefalse
+begin wait
+[  27.5720]RECEIVE-41-5
+stop wait falsetruefalsefalsefalse
+[  27.6640]ARRIVE-4-5
+[  27.6650]OPEN-4-5
+[  27.6650]OUT-27-4-5
+11
+[  27.6680]RESET_END-1
+begin wait
+[  27.6690]RECEIVE-19-1-A
+[  27.6700]RECEIVE-9-1-A
+[  27.7110]ARRIVE-5-6
+12
+stop wait falsefalsefalsetruefalse
+begin wait
+[  27.9460]RECEIVE-1-6
+[  27.9760]ARRIVE-3-1-A
+[  27.9780]OPEN-3-1-A
+[  27.9790]IN-19-3-1-A
+[  27.9790]IN-9-3-1-A
+[  28.0700]CLOSE-4-5
+[  28.1170]RESET_END-3
+[  28.1180]ARRIVE-4-6
+stop wait falsetruefalsetruefalse
+begin wait
+[  28.1180]RECEIVE-70-3
+13
+stop wait falsefalsefalsetruefalse
+begin wait
+[  28.1500]RECEIVE-21-1-B
+14
+stop wait falsefalsefalsetruefalse
+begin wait
+[  28.3820]CLOSE-3-1-A
+stop wait falsetruefalsefalsefalse
+[  28.4300]RESET_END-2
+begin wait
+[  28.4310]RECEIVE-8-2-B
+[  28.4320]RECEIVE-43-2-B
+[  28.4600]ARRIVE-5-1-B
+[  28.4610]OPEN-5-1-B
+[  28.4620]IN-21-5-1-B
+[  28.4760]ARRIVE-3-5
+[  28.4760]OPEN-3-5
+[  28.4760]OUT-26-3-5
+13
+stop wait falsetruefalsetruefalse
+begin wait
+[  28.5240]ARRIVE-3-6
+[  28.6960]ARRIVE-4-1-A
+[  28.7270]ARRIVE-3-3
+[  28.7730]RESET_END-4
+[  28.7730]RECEIVE-28-4
+stop wait falsetruefalsetruetrue
+begin wait
+[  28.8700]CLOSE-5-1-B
+[  28.8810]CLOSE-3-5
+[  28.9280]ARRIVE-2-6
+[  28.9280]OPEN-2-6
+[  28.9280]IN-34-2-6
+[  29.0380]ARRIVE-7-2-B
+[  29.1780]ARRIVE-6-1-B
+[  29.1780]ARRIVE-6-4
+[  29.1780]OPEN-6-4
+[  29.1790]IN-28-6-4
+[  29.2850]ARRIVE-2-5
+[  29.3320]ARRIVE-4-3
+[  29.3320]CLOSE-2-6
+14
+stop wait falsefalsefalsetruetrue
+begin wait
+[  29.3480]RECEIVE-15-3
+[  29.4880]ARRIVE-5-1-A
+[  29.4880]ARRIVE-7-1-B
+[  29.4880]OPEN-5-1-A
+[  29.4880]OUT-19-5-1-A
+13
+stop wait falsetruefalsetruetrue
+begin wait
+[  29.4890]OUT-9-5-1-A
+stop wait falsefalsefalsetruetrue
+begin wait
+[  29.4910]RECEIVE-9-4
+[  29.5810]CLOSE-6-4
+[  29.6450]ARRIVE-8-2-B
+[  29.6910]ARRIVE-1-5
+[  29.6920]OPEN-1-5
+[  29.6920]IN-10-1-5
+[  29.7380]ARRIVE-3-6
+14
+stop wait falsefalsefalsetruetrue
+begin wait
+[  29.7540]RECEIVE-66-5
+[  29.8000]ARRIVE-8-1-B
+[  29.8930]CLOSE-5-1-A
+[  29.9390]ARRIVE-5-3
+15
+stop wait falsefalsefalsetruetrue
+begin wait
+[  29.9550]RECEIVE-12-6
+[  29.9850]ARRIVE-5-4
+stop wait truetruefalsetruetrue
+begin wait
+[  30.0940]CLOSE-1-5
+[  30.1090]ARRIVE-9-1-B
+[  30.1400]ARRIVE-4-6
+[  30.2030]ARRIVE-4-1-A
+[  30.2510]ARRIVE-9-2-B
+[  30.2520]OPEN-9-2-B
+[  30.2520]IN-43-9-2-B
+[  30.3920]ARRIVE-4-4
+[  30.4230]ARRIVE-10-1-B
+[  30.4230]OPEN-10-1-B
+[  30.4240]OUT-21-10-1-B
+14
+stop wait truetruefalsetruetrue
+begin wait
+[  30.5160]ARRIVE-2-5
+[  30.5480]ARRIVE-5-6
+[  30.5480]ARRIVE-6-3
+[  30.6570]CLOSE-9-2-B
+[  30.7970]ARRIVE-3-4
+[  30.7970]OPEN-3-4
+[  30.7970]OUT-28-3-4
+13
+stop wait truetruefalsetruetrue
+begin wait
+[  30.8290]CLOSE-10-1-B
+[  30.9270]ARRIVE-3-5
+[  30.9280]OPEN-3-5
+[  30.9280]IN-41-3-5
+[  30.9520]ARRIVE-6-6
+[  31.1530]ARRIVE-7-3
+[  31.2010]CLOSE-3-4
+[  31.2630]ARRIVE-8-2-B
+[  31.3410]CLOSE-3-5
+[  31.3580]ARRIVE-7-6
+[  31.3580]OPEN-7-6
+[  31.3590]OUT-34-7-6
+12
+stop wait truetruefalsetruetrue
+begin wait
+[  31.6060]ARRIVE-4-4
+[  31.7460]ARRIVE-4-5
+[  31.7470]OPEN-4-5
+[  31.7470]IN-35-4-5
+[  31.7610]CLOSE-7-6
+[  31.7610]ARRIVE-8-3
+[  31.8710]ARRIVE-7-2-B
+[  31.8720]OPEN-7-2-B
+[  31.8720]IN-8-7-2-B
+[  32.0100]ARRIVE-5-4
+[  32.0100]OPEN-5-4
+[  32.0110]IN-9-5-4
+[  32.1490]CLOSE-4-5
+[  32.1640]ARRIVE-8-6
+[  32.2740]CLOSE-7-2-B
+[  32.3680]ARRIVE-9-3
+[  32.4150]CLOSE-5-4
+[  32.5570]ARRIVE-5-5
+[  32.5570]OPEN-5-5
+[  32.5580]OUT-35-5-5
+11
+[  32.5580]IN-66-5-5
+stop wait truetruefalsetruetrue
+begin wait
+[  32.5730]ARRIVE-9-6
+[  32.5730]OPEN-9-6
+[  32.5730]IN-1-9-6
+[  32.8240]ARRIVE-6-4
+[  32.8240]OPEN-6-4
+[  32.8250]OUT-9-6-4
+10
+stop wait truetruefalsetruetrue
+begin wait
+[  32.8870]ARRIVE-6-2-B
+[  32.8870]OPEN-6-2-B
+[  32.8870]OUT-43-6-2-B
+9
+stop wait truetruefalsetruetrue
+begin wait
+[  32.9630]CLOSE-5-5
+[  32.9790]ARRIVE-10-3
+[  32.9790]OPEN-10-3
+[  32.9800]IN-70-10-3
+[  32.9800]IN-15-10-3
+[  32.9810]CLOSE-9-6
+[  33.2290]CLOSE-6-4
+[  33.2920]CLOSE-6-2-B
+[  33.3720]ARRIVE-6-5
+[  33.3720]OPEN-6-5
+[  33.3720]OUT-10-6-5
+8
+stop wait truetruefalsetruetrue
+begin wait
+[  33.3720]OUT-66-6-5
+7
+stop wait truetruefalsetruetrue
+begin wait
+[  33.3870]ARRIVE-8-6
+[  33.3870]CLOSE-10-3
+[  33.7760]CLOSE-6-5
+[  33.7920]ARRIVE-7-6
+[  33.7920]OPEN-7-6
+[  33.7930]IN-12-7-6
+[  33.9010]ARRIVE-5-2-B
+[  33.9020]OPEN-5-2-B
+[  33.9020]OUT-8-5-2-B
+stop wait truefalsefalsetruetrue
+begin wait
+[  33.9040]RECEIVE-8-1-A
+[  33.9950]ARRIVE-9-3
+[  34.1810]ARRIVE-7-5
+[  34.1980]CLOSE-7-6
+[  34.2120]ARRIVE-5-1-A
+[  34.2120]OPEN-5-1-A
+[  34.2120]IN-8-5-1-A
+[  34.3050]CLOSE-5-2-B
+[  34.5850]ARRIVE-8-5
+[  34.5860]OPEN-8-5
+[  34.5860]IN-29-8-5
+[  34.6010]ARRIVE-8-3
+[  34.6010]ARRIVE-6-6
+[  34.6020]OPEN-6-6
+[  34.6030]OUT-1-6-6
+6
+stop wait truetruefalsetruetrue
+begin wait
+[  34.6160]CLOSE-5-1-A
+[  34.9130]ARRIVE-6-2-B
+[  34.9280]ARRIVE-4-1-A
+[  34.9910]CLOSE-8-5
+[  35.0070]CLOSE-6-6
+[  35.2080]ARRIVE-7-3
+[  35.2390]ARRIVE-3-1-A
+[  35.2410]OPEN-3-1-A
+[  35.2410]OUT-8-3-1-A
+5
+stop wait truetruefalsetruetrue
+begin wait
+[  35.3960]ARRIVE-9-5
+[  35.4120]ARRIVE-5-6
+[  35.6470]CLOSE-3-1-A
+[  35.8020]ARRIVE-10-5
+[  35.8180]ARRIVE-6-3
+[  35.8180]OPEN-6-3
+[  35.8180]ARRIVE-4-6
+[  35.8180]OPEN-4-6
+[  35.8180]OUT-12-4-6
+4
+[  35.8180]OUT-70-6-3
+3
+stop wait truetruefalsetruetrue
+begin wait
+[  36.2070]ARRIVE-11-5
+[  36.2070]OPEN-11-5
+[  36.2070]OUT-41-11-5
+2
+stop wait truetruefalsetruetrue
+begin wait
+[  36.2080]OUT-29-11-5
+1
+stop wait truetruefalsetruetrue
+begin wait
+[  36.2230]CLOSE-6-3
+[  36.2230]CLOSE-4-6
+[  36.6120]CLOSE-11-5
+[  36.8300]ARRIVE-5-3
+[  37.4370]ARRIVE-4-3
+[  38.0470]ARRIVE-3-3
+[  38.0470]OPEN-3-3
+[  38.0470]OUT-15-3-3
+0
+stop wait truetruetruetruetrue
+schedule finish
+[  38.4530]CLOSE-3-3

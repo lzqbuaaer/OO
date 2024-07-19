@@ -1,0 +1,19 @@
+{
+    "1": [
+        "-ask2checkOut(guestName:string,roomId:int):void",
+        "+checkOut(roomId:int):void",
+        "-workerName:String",
+        "Dispatcher",
+        "checkOut",
+        "isCleanOperation()"
+    ],
+    "2": [
+        "DIS_REC_CHECKIN_FAILED",
+        "replyCheckOut(request);",
+        "arrangeClean4CheckOut(request);",
+        "arrangeCleanOnly(Request request)",
+        "RoomState.OCCUPIED",
+        "RequestTag.CLE_DIS_CLEAN_CHECKOUT.equals(request.getRequestTag()"
+    ],
+    "3": "高内聚使得模块能够独立地完成单一的任务，低耦合能够减少模块之间的相互影响，避免一个功能的变动或者增加使得大量模块都需要改动。高内聚让模块内部功能相互关联紧密，低耦合则保证了模块之间的独立性和灵活性。高内聚和低耦合的程序能够有较高的可扩展性和灵活性"
+}
